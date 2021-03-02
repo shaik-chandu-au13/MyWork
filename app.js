@@ -6,5 +6,5 @@ app.get('/',(req, res) =>{
     res.send("Health ok")
 })
 app.listen(port,(req,res) => {
-    console.log(`listening at ${port}`)
+console.log(`listening at ${port}`)
 });
